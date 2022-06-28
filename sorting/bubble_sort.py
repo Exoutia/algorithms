@@ -1,3 +1,5 @@
+# Time complexity :  O(n**2) : n is the length of the array
+
 def bub_sort(arr):
     for i in range(len(arr)):
         for j in range(len(arr)-1):
