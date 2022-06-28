@@ -1,3 +1,5 @@
+# Time complexity :  O(n**2) : n is the length of the array
+
 def selec_sort(arr):
     for i in range(len(arr)):
         min_index = i
