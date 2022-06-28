@@ -36,6 +36,10 @@ def merge_sort(arr: list, left: int, right: int) -> list:
     return arr
 
 
-x = [7,8,9,1,2,3,4,76,5,6]
-merge_sort(x, 0, len(x)-1)
-print (x)
+def main():
+    x = [7,8,9,1,2,3,4,76,5,6]
+    merge_sort(x, 0, len(x)-1)
+    print (x)
+
+if __name__ == "__main__":
+    main()
