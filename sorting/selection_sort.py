@@ -8,6 +8,11 @@ def selec_sort(arr):
                 min_index = j
         arr[i], arr[min_index] = arr[min_index], arr[i]
     return arr
-x = [7,8,9,1,2,3,4,76,5,6]
-selec_sort(x)
-print (x)
+
+def main():
+    x = [7,8,9,1,2,3,4,76,5,6]
+    selec_sort(x)
+    print (x)
+
+if __name__ == "__main__":
+    main()
