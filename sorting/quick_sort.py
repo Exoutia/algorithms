@@ -14,6 +14,10 @@ def quick_sort(arr, low, high):
         quick_sort(arr, low, pi-1)
         quick_sort(arr, pi+1, high)
         
-x = [1,64,3,1,3,5,7,89,3221,8,545344]
-quick_sort(x, 0, len(x)-1)
-print (x)
+def main():        
+    x = [1,64,3,1,3,5,7,89,3221,8,545344]
+    quick_sort(x, 0, len(x)-1)
+    print (x)
+
+if __name__ == "__main__":
+    main()
