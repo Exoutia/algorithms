@@ -1,3 +1,5 @@
+# Time complexity :  O(n**2) : n is the length of the array
+
 def insr_sort(arr:  list):
     for i in range(1, len(arr)):
         key = arr[i]
