@@ -1,3 +1,5 @@
+# Time complexity :  O(nlogn) : n is the length of the array
+
 def merge(arr: list, left: int, right: int, mid: int) -> list:
     i = left
     j = mid
