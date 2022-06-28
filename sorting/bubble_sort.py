@@ -7,7 +7,10 @@ def bub_sort(arr):
                 arr[j], arr[j+1] = arr[j+1], arr[j]
     return arr
 
-
-x = [7,8,9,1,2,3,4,76,5,6]
-bub_sort(x)
-print (x)
+def main():
+    x = [7,8,9,1,2,3,4,76,5,6]
+    bub_sort(x)
+    print (x)
+    
+if __name__ == "__main__":
+    main()
