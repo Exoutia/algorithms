@@ -8,6 +8,7 @@ def jump_search(arr, x):
         step += int(math.sqrt(n))
         if prev >= n:
             return -1
+        # print(prev, step)
     while arr[prev] < x:
         prev += 1
         if prev == min(step, n):
